@@ -15,7 +15,7 @@ class Map extends Component {
                     <br/>
                     <br/>
                     <br/>
-                    <h2 className="section-title mb-35">Mapa Recomendado - Gran Canaria</h2>
+                    <h2 className="section-title mb-35">Recommended Map - Gran Canaria</h2>
                 </div>
                 <iframe src="https://www.google.com/maps/d/embed?mid=1CCn7O6uUoBbWwVTTF5EJW7-MZxV49po&hl=es&ehbc=2E312F" loading="lazy"></iframe>
             </div>

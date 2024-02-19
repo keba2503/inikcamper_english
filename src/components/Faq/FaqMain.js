@@ -9,7 +9,7 @@ class FaqMain extends Component {
 
         return (
             <main>
-                <Breadcrumb pageTitle="Preguntas Frecuentes FAQ "/>
+                <Breadcrumb pageTitle="FAQ "/>
                 <FaqAccordion/>
                 <FaqForm/>
             </main>

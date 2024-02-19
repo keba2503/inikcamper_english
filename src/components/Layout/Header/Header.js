@@ -36,24 +36,24 @@ const Header = () => {
             <HelmetProvider>
                 <Head>
                     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-                    <title>InikCamper - Alquiler de autocaravanas y furgonetas en Gran Canaria</title>
+                    <title>InikCamper - Camper and Van Rental in Gran Canaria</title>
                 </Head>
                 <Helmet>
                     <link rel="icon" type="image/png" href="/assets/img/icon/camper-van.png"/>
-                    <meta name="description" content="Explora Gran Canaria con InikCamper. Alquiler de autocaravanas y furgonetas con servicios de camperización. ¡Tu aventura comienza aquí!"/>
-                    <meta name="keywords" content="autocaravanas, campervan, furgonetas, camperización, alquiler, Gran Canaria, Las Palmas, viajes, aventuras"/>
+                    <meta name="description" content="Explore Gran Canaria with InikCamper. Camper and van rental with camperization services. Your adventure begins here!"/>
+                    <meta name="keywords" content="campervans, camper van, vans, camperization, rental, Gran Canaria, Las Palmas, travel, adventures"/>
                     <meta name="author" content="InikCamper"/>
                     <meta name="robots" content="index, follow"/>
-                    <meta name="language" content="es"/>
+                    <meta name="language" content="en"/>
                     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
                     <link rel="canonical" href="https://inikcamper.es"/>
                     <meta name="twitter:card" content="summary"/>
                     <meta name="twitter:site" content="@inikcamper"/>
                     <meta name="twitter:image" content="https://inikcamper.es/assets/img/slider/inikcamper_bailico.jpg"/>
-                    <meta name="twitter:title" content="InikCamper - Alquiler de Autocaravanas en Gran Canaria"/>
-                    <meta name="twitter:description" content="Explora Gran Canaria con InikCamper. Alquiler de autocaravanas y furgonetas con servicios de camperización. ¡Tu aventura comienza aquí!"/>
-                    <meta property="og:title" content="InikCamper - Alquiler de autocaravanas y furgonetas en Gran Canaria"/>
-                    <meta property="og:description" content="Alquiler de autocaravanas y furgonetas camper en Gran Canaria. Descubre la libertad de viajar con InikCamper."/>
+                    <meta name="twitter:title" content="InikCamper - Camper and Van Rental in Gran Canaria"/>
+                    <meta name="twitter:description" content="Explore Gran Canaria with InikCamper. Camper and van rental with camperization services. Your adventure begins here!"/>
+                    <meta property="og:title" content="InikCamper - Camper and Van Rental in Gran Canaria"/>
+                    <meta property="og:description" content="Camper and van rental in Gran Canaria. Discover the freedom of traveling with InikCamper."/>
                     <meta property="og:image" content="https://inikcamper.es/assets/img/slider/inikcamper_bailico.jpg"/>
                     <meta property="og:url" content="https://inikcamper.es/"/>
                     <meta property="og:type" content="website"/>
@@ -75,39 +75,49 @@ const Header = () => {
                                         <nav id="mobile-menu">
                                             <ul>
                                                 <li className="menu-item-has-children">
-                                                    <Link href="/"><a>Inicio</a></Link>
+                                                    <Link href="/"><a>Home</a></Link>
                                                 </li>
                                                 <li className="menu-item-has-children">
-                                                    <Link href="/"><a>Nosotros</a></Link>
+                                                    <Link href="/"><a>About Us</a></Link>
                                                     <ul className="sub-menu">
-                                                        <li><Link href="/about"><a>Quienes Somos</a></Link></li>
-                                                        <li><Link href="/team"><a>Nuestro Equipo</a></Link></li>
-                                                        <li><Link href="/faq"><a>Preguntas Frecuentes FAQ</a></Link>
-                                                        </li>
+                                                        <li><Link href="/about"><a>Who We Are</a></Link></li>
+                                                        <li><Link href="/team"><a>Our Team</a></Link></li>
+                                                        <li><Link href="/faq"><a>FAQs</a></Link></li>
                                                         <li><Link href="/blog"><a>Blog</a></Link></li>
                                                     </ul>
                                                 </li>
                                                 <li className="menu-item-has-children">
-                                                    <Link href="/service"><a>Servicios</a></Link></li>
-                                                <li><Link href="/GuieUser"><a>Guía de usuario</a></Link></li>
-                                                <li><a href="https://airbnb.com/h/inikcamper" target="_blank"
-                                                       className="theme-btn theme-btn-small">Mis Reservas</a></li>
+                                                    <Link href="/service"><a>Services</a></Link></li>
+                                                <li><Link href="/GuieUser"><a>User Guide</a></Link></li>
+                                                <li>
+                                                    <a href="https://airbnb.com/h/inikcamper" target="_blank" className="theme-btn theme-btn-small">Bookings</a>
+                                                </li>
                                             </ul>
                                         </nav>
                                     </div>
                                     <div className="side-menu-icon d-xl-none text-end">
                                         <button className="side-toggle" onClick={() => {
                                             setMenuOpen(!menuOpen)
-                                        }}><i><FontAwesomeIcon icon={['fas', 'bars']}/></i></button>
+                                        }}>
+                                            <i><FontAwesomeIcon icon={['fas', 'bars']}/></i>
+                                        </button>
                                     </div>
                                 </div>
                                 <div className="col-xl-4 d-none d-xl-block">
                                     <div className="header-right text-end">
                                         <div className="header-social">
-                                            <a href="https://wa.me/34684198547" target="_blank"><i><FontAwesomeIcon id="whatsaap" icon={['fab', 'whatsapp']}/></i></a>
-                                            <a href="https://www.instagram.com/inikcamper.es" target="_blank"><i><FontAwesomeIcon icon={['fab', 'instagram']}/></i></a>
-                                            <a href="https://www.twitter.com/inikcamper" target="_blank"><i><FontAwesomeIcon icon={['fab', 'twitter']}/></i></a>
-                                            <a href="https://www.facebook.com/InikCamper-113925204533049" target="_blank"><i><FontAwesomeIcon icon={['fab', 'facebook']}/></i></a>
+                                            <a href="https://wa.me/34684198547" target="_blank">
+                                                <i><FontAwesomeIcon id="whatsapp" icon={['fab', 'whatsapp']}/></i>
+                                            </a>
+                                            <a href="https://www.instagram.com/inikcamper.es" target="_blank">
+                                                <i><FontAwesomeIcon icon={['fab', 'instagram']}/></i>
+                                            </a>
+                                            <a href="https://www.twitter.com/inikcamper" target="_blank">
+                                                <i><FontAwesomeIcon icon={['fab', 'twitter']}/></i>
+                                            </a>
+                                            <a href="https://www.facebook.com/InikCamper-113925204533049" target="_blank">
+                                                <i><FontAwesomeIcon icon={['fab', 'facebook']}/></i>
+                                            </a>
                                         </div>
                                         <div className="header-btn">
                                         </div>
@@ -122,6 +132,7 @@ const Header = () => {
                 <div onClick={() => setSearchOpen(false)} className={searchOpen ? "body-overlay show" : "body-overlay"}></div>
             </header>
         </React.Fragment>
+
     );
 }
 

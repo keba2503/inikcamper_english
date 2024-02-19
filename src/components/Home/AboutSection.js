@@ -12,44 +12,44 @@ class About extends Component {
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="kabout-img mb-50 mr-70" data-aos="zoom-out-up" data-swiper-autoplay="10000">
-                                <img src="assets/img/about/about-img-1.jpg" className="img-fluid z-index"
-                                     alt="about-img"/>
+                                <img src="assets/img/about/about-img-1.jpg" className="img-fluid z-index" alt="about-img"/>
                             </div>
                         </div>
                         <div className="col-lg-6">
                             <div className="kabout mb-50" data-aos="zoom-out-down" data-swiper-autoplay="10000">
                                 <div className="section-title-wrapper mb-45">
-                                    <h1 className="section-title mb-35">Quienes Somos <br/> InikCamper</h1>
-                                    <p>Somos Aventura, Momentos, Experiencias y Recuerdos.</p>
+                                    <h1 className="section-title mb-35">About Us <br/> InikCamper</h1>
+                                    <p>We are Adventure, Moments, Experiences, and Memories.</p>
                                 </div>
                                 <div className="row">
 
                                 </div>
                                 <ul className="mt-20 mb-55">
-                                    <li><i><FontAwesomeIcon icon={['fas', 'check']}/></i> Somos una desconexión de la
-                                        vida diaria para los apasionados de la libertad.
+                                    <li>
+                                        <i><FontAwesomeIcon icon={['fas', 'check']}/></i> We are a disconnection from daily life for freedom enthusiasts.
                                     </li>
-                                    <li><i><FontAwesomeIcon icon={['fas', 'check']}/></i> Planificamos las experiencias
-                                        y aventuras por y para ti.
+                                    <li>
+                                        <i><FontAwesomeIcon icon={['fas', 'check']}/></i> We plan experiences and adventures for and with you.
                                     </li>
-                                    <li><i><FontAwesomeIcon icon={['fas', 'check']}/></i> Te acompañara nuestra Camper
-                                        Van.
+                                    <li>
+                                        <i><FontAwesomeIcon icon={['fas', 'check']}/></i> Our Camper Van will accompany you.
                                     </li>
-                                    <li><i><FontAwesomeIcon icon={['fas', 'check']}/></i> Te Ofrecemos un servicio
-                                        personalizado y de calidad.
+                                    <li>
+                                        <i><FontAwesomeIcon icon={['fas', 'check']}/></i> We offer personalized and quality service.
                                     </li>
-                                    <li><i><FontAwesomeIcon icon={['fas', 'check']}/></i> Te guiamos en tús vacaciones
-                                        para que no tengas preocupaciones.
+                                    <li>
+                                        <i><FontAwesomeIcon icon={['fas', 'check']}/></i> We guide you on your vacations so you have no worries.
                                     </li>
                                 </ul>
                                 <div className="kabout-btn">
-                                    <Link href="/service"><a className="theme-btn border-btn">Más información</a></Link>
+                                    <Link href="/service"><a className="theme-btn border-btn">Learn More</a></Link>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
+
         );
     }
 }

@@ -27,7 +27,7 @@ class Guie extends Component {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="faq-wrapper">
-                                <h2>Guía de usuario</h2>
+                                <h2>User guide</h2>
                                 <br/>
                                 <div className="choose-right" data-aos="fade-left" data-aos-duration="1000">
                                     <div className="accordion" id="accordionExample">

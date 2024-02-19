@@ -15,8 +15,8 @@ class TeamTwo extends Component {
                     <div className="row">
                         <div className="col-12">
                             <div className="section-title-wrapper text-center mb-50">
-                                <h5 className="section-subtitle mb-20">Creativos</h5>
-                                <h2 className="section-title mb-35">Nuestro Equipo </h2>
+                                <h5 className="section-subtitle mb-20">Creative</h5>
+                                <h2 className="section-title mb-35">Our Team</h2>
                             </div>
                         </div>
                     </div>

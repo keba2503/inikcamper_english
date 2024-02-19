@@ -10,7 +10,7 @@ class FaqAccordion extends Component {
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="faq-wrapper">
-                                <h2>Sobre la Reserva</h2>
+                                <h2>About the Reservation</h2>
                                 <div className="choose-right" data-aos="fade-left" data-aos-duration="1000">
                                     <div className="accordion" id="accordionExample">
                                         <div className="accordion-item">
@@ -18,18 +18,13 @@ class FaqAccordion extends Component {
                                                 <button className="accordion-button" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#collapseOne"
                                                         aria-expanded="true" aria-controls="collapseOne">
-                                                    ¿Para qué sirve la fianza de 600€?
+                                                    What is the purpose of the €600 deposit?
                                                 </button>
                                             </h2>
                                             <div id="collapseOne" className="accordion-collapse collapse show"
                                                  aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                                 <div className="accordion-body">
-                                                    <p>La CamperVan dispone de un seguro a todo riesgo con franquicia de
-                                                        500 euros; por tanto si ocurriera algún desperfecto en la
-                                                        autocaravana, exterior o interior, por valor inferior a este
-                                                        importe, será a cargo del cliente, salvo que el culpable sea un
-                                                        tercero. En este caso la cobertura es completa, presentando el
-                                                        parte de accidentes correctamente cumplimentada..</p>
+                                                    <p>The CamperVan has comprehensive insurance with a €500 excess; therefore, if any damage occurs to the motorhome, exterior, or interior, with a value below this amount, it will be the responsibility of the customer, unless a third party is at fault. In this case, coverage is complete, provided that the accident report is correctly completed.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -39,15 +34,13 @@ class FaqAccordion extends Component {
                                                 <button className="accordion-button collapsed" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#collapseTwo"
                                                         aria-expanded="false" aria-controls="collapseTwo">
-                                                    ¿Puedo salir de Gran Canaria con la CamperVan?
+                                                    Can I travel outside Gran Canaria with the CamperVan?
                                                 </button>
                                             </h2>
                                             <div id="collapseTwo" className="accordion-collapse collapse"
                                                  aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                                 <div className="accordion-body">
-                                                    <p>Si puede viajar a cualquier isla del archipiélago canario sin
-                                                        problemas, sin embargo para salir de Canarias necesita una
-                                                        autorización especial de Inikcamper.</p>
+                                                    <p>Yes, you can travel to any island in the Canary archipelago without any problems. However, to leave the Canary Islands, you need special authorization from Inikcamper.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -56,16 +49,13 @@ class FaqAccordion extends Component {
                                                 <button className="accordion-button collapsed" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#collapseThree"
                                                         aria-expanded="false" aria-controls="collapseThree">
-                                                    ¿Puede conducir otra persona aunque no figure en el contrato?
+                                                    Can someone else drive even if they are not listed in the contract?
                                                 </button>
                                             </h2>
                                             <div id="collapseThree" className="accordion-collapse collapse"
                                                  aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                                 <div className="accordion-body">
-                                                    <p>Sí, siempre que cumpla con los requisitos mínimos del seguro:
-                                                        tener 23 años cumplidos y una antigüedad de 2 años como mínimo
-                                                        en el carnét de conducir. La persona que figura en el contrato
-                                                        debe viajar en el vehículo aunque no conduzca.</p>
+                                                    <p>Yes, as long as they meet the minimum insurance requirements: be at least 23 years old and have a minimum of 2 years of driving experience. The person listed in the contract must travel in the vehicle even if they are not driving.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -74,28 +64,23 @@ class FaqAccordion extends Component {
                                                 <button className="accordion-button collapsed" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#collapseFour"
                                                         aria-expanded="false" aria-controls="collapseFour">
-                                                    ¿Entregan limpia la autocaravana, lista para usar? ¿y cómo hay que
-                                                    devolverla?
+                                                    Is the motorhome delivered clean and ready to use? And how should it be returned?
                                                 </button>
                                             </h2>
                                             <div id="collapseFour" className="accordion-collapse collapse"
                                                  aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                                 <div className="accordion-body">
-                                                    <p>Las autocaravanas se entregan completamente limpias e
-                                                        higienizadas con los depósitos de residuales completamente
-                                                        vacíos y limpios. A su regreso deben volver en el mismo estado
-                                                        en que se le entregó.</p>
+                                                    <p>The motorhomes are delivered completely clean and sanitized, with the wastewater tanks completely empty and clean. Upon return, they must be in the same condition as when they were delivered.</p>
                                                 </div>
                                             </div>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-6">
                             <div className="faq-wrapper-2">
-                                <h2>Sobre la CamperVan</h2>
+                                <h2>About the CamperVan</h2>
                                 <div className="choose-right" data-aos="fade-left" data-aos-duration="1000">
                                     <div className="accordion" id="accordionExample2">
                                         <div className="accordion-item">
@@ -103,13 +88,13 @@ class FaqAccordion extends Component {
                                                 <button className="accordion-button collapsed" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#collapseNine"
                                                         aria-expanded="false" aria-controls="collapseNine">
-                                                    Proximamente
+                                                    Coming Soon
                                                 </button>
                                             </h2>
                                             <div id="collapseNine" className="accordion-collapse collapse"
                                                  aria-labelledby="headingNine" data-bs-parent="#accordionExample2">
                                                 <div className="accordion-body">
-                                                    <p>Proximamente</p>
+                                                    <p>Coming Soon</p>
                                                 </div>
                                             </div>
                                         </div>

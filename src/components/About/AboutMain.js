@@ -16,7 +16,7 @@ class AboutMain extends Component {
 
         return (
             <main>
-                <Breadcrumb pageTitle="Quienes Somos"/>
+                <Breadcrumb pageTitle="ABOUT US"/>
                 <Mission/>
             </main>
         );

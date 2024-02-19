@@ -16,7 +16,7 @@ const Breadcrumb = (props) => {
                                     <ul className="trail-items">
                                         <li className="trail-item trail-begin">
                                             <Link href="/" as="/">
-                                                <a><span>Inicio</span></a>
+                                                <a><span>Home</span></a>
                                             </Link>
                                         </li>
                                         <li className="trail-item trail-end">

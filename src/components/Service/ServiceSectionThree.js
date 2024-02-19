@@ -12,7 +12,7 @@ class ServiceThree extends Component {
                 link: 'https://airbnb.com/h/inikcamper',
             },
             {
-                title: 'Bicicletas + Camper',
+                title: 'Bicycles + Camper',
                 images: [
                     'https://i.ibb.co/L1Y97B3/bicycle.png',
                 ],
@@ -46,6 +46,7 @@ class ServiceThree extends Component {
                 ],
                 link: '/service',
             },
+
         ];
 
         const breakPoints = [

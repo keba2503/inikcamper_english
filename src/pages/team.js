@@ -23,7 +23,7 @@ class ServicePage extends React.Component {
         return (
             <React.Fragment>
                 <Header/>
-                <Breadcrumb pageTitle="Nuestro equipo"/>
+                <Breadcrumb pageTitle="OUR TEAM"/>
                 <WhyWeTwo/>
                 <TeamTwo/>
                 <Footer/>

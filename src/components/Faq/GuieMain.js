@@ -9,7 +9,7 @@ class GuieMain extends Component {
 
         return (
             <main>
-                <Breadcrumb pageTitle="Guía de usuario"/>
+                <Breadcrumb pageTitle="User guide"/>
                 <Guie/>
                 <FaqForm/>
             </main>

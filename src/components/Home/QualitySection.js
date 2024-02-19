@@ -6,8 +6,7 @@ export const Servicios = (props) => {
         <div id='services' className='text-center'>
             <div className='container'>
                 <div className='section-title'>
-                    <h2>Nuestros servicios</h2><br/>
-
+                    <h2>Our Services</h2><br/>
                 </div>
                 <div className='row'>
                     {props.data
@@ -25,5 +24,6 @@ export const Servicios = (props) => {
                 </div>
             </div>
         </div>
+
     )
 }
